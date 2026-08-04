@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="1080" height="1080" role="img" aria-label="Flywheel Engineering powered by Zero-Copy, Zero-Trust, and Zero-Token — GeneWang">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e0b34a" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#7eb8d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#061824" stop-opacity="0"/>
+    </radialGradient>
+    <style type="text/css"><![CDATA[
+      @media (prefers-reduced-motion: reduce) {
+        .spin { display: none; }
+      }
+    ]]></style>
+  </defs>
+  <rect width="320" height="320" fill="#061824"/>
+  <circle cx="160" cy="160" r="148" fill="url(#glow)"/>
+  <circle cx="160" cy="160" r="118" fill="none" stroke="#c4922a" stroke-opacity="0.55" stroke-width="2.5"/>
+
+  <!-- Mid dashed ring — rotate about ring center (160 160) -->
+  <g>
+    <animateTransform
+      class="spin"
+      attributeName="transform"
+      type="rotate"
+      from="0 160 160"
+      to="-360 160 160"
+      dur="22s"
+      repeatCount="indefinite"
+    />
+    <circle cx="160" cy="160" r="82" fill="none" stroke="#7eb8d4" stroke-opacity="0.45" stroke-width="1.75" stroke-dasharray="5 7"/>
+  </g>
+
+  <!-- Orbit dots on outer ring (r=118), 120° apart, same center -->
+  <g>
+    <animateTransform
+      class="spin"
+      attributeName="transform"
+      type="rotate"
+      from="0 160 160"
+      to="360 160 160"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+    <circle cx="160" cy="42" r="4.5" fill="#e0b34a"/>
+    <circle cx="262.2" cy="219" r="4" fill="#7eb8d4"/>
+    <circle cx="57.8" cy="219" r="4" fill="#6fbf8a"/>
+  </g>
+
+  <text x="160" y="154" text-anchor="middle" fill="#e0b34a" font-family="Georgia, serif" font-size="22" font-weight="650">Flywheel</text>
+  <text x="160" y="176" text-anchor="middle" fill="#e0b34a" font-family="system-ui, sans-serif" font-size="9" font-weight="650" letter-spacing="2.2">ENGINEERING</text>
+  <g font-family="system-ui, sans-serif">
+    <rect x="78" y="58" width="78" height="24" rx="12" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+    <text x="117" y="74" text-anchor="middle" fill="#f4f8fb" font-size="10" font-weight="650">Zero-Copy</text>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <rect x="164" y="58" width="78" height="24" rx="12" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+    <text x="203" y="74" text-anchor="middle" fill="#f4f8fb" font-size="10" font-weight="650">Zero-Trust</text>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <rect x="111" y="248" width="98" height="24" rx="12" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+    <text x="160" y="264" text-anchor="middle" fill="#f4f8fb" font-size="10" font-weight="650">Zero-Token</text>
+  </g>
+  <text x="12" y="312" text-anchor="start" fill="#e8f0f6" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="8" font-weight="500" letter-spacing="0.4">Aug01-2026</text>
+  <text x="308" y="312" text-anchor="end" fill="#e8f0f6" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="8" font-weight="500" letter-spacing="0.4">GeneWang</text>
+</svg>
