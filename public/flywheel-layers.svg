@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="1440" height="880" role="img" aria-label="Agent engineering layers: Harness, Loop, Graph, Flywheel - GeneWang">
+  <defs>
+    <radialGradient id="flaGlow" cx="35%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e0b34a" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#7eb8d4" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#061824" stop-opacity="0"/>
+    </radialGradient>
+    <style type="text/css"><![CDATA[
+      .seq-h { animation: inH 8s ease-in-out infinite; }
+      .seq-l { animation: inL 8s ease-in-out infinite; }
+      .seq-g { animation: inG 8s ease-in-out infinite; }
+      .seq-fly { animation: inFly 8s ease-in-out infinite; }
+      .seq-tri { animation: inTri 8s ease-in-out infinite; }
+      .seq-lab { animation: softLab 8s ease-in-out infinite; }
+      .seq-lh { animation: onH 8s ease-in-out infinite; }
+      .seq-ll { animation: onL 8s ease-in-out infinite; }
+      .seq-lg { animation: onG 8s ease-in-out infinite; }
+      .seq-lf { animation: onF 8s ease-in-out infinite; }
+
+      @keyframes inH {
+        0%, 5% { opacity: 0; }
+        12%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes inL {
+        0%, 22% { opacity: 0; }
+        30%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes inG {
+        0%, 42% { opacity: 0; }
+        50%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0; }
+      }
+      @keyframes inFly {
+        0%, 58% { opacity: 0; }
+        68%, 92% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+      @keyframes inTri {
+        0%, 74% { opacity: 0; }
+        82%, 92% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+      @keyframes softLab {
+        0%, 62% { opacity: 1; }
+        70%, 92% { opacity: 0.28; }
+        98%, 100% { opacity: 1; }
+      }
+      @keyframes onH {
+        0%, 8% { opacity: 0.35; }
+        12%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0.35; }
+      }
+      @keyframes onL {
+        0%, 26% { opacity: 0.35; }
+        30%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0.35; }
+      }
+      @keyframes onG {
+        0%, 46% { opacity: 0.35; }
+        50%, 90% { opacity: 1; }
+        97%, 100% { opacity: 0.35; }
+      }
+      @keyframes onF {
+        0%, 64% { opacity: 0.35; }
+        70%, 92% { opacity: 1; }
+        98%, 100% { opacity: 0.35; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .seq-h, .seq-l, .seq-g, .seq-fly, .seq-tri, .seq-lab,
+        .seq-lh, .seq-ll, .seq-lg, .seq-lf { animation: none !important; opacity: 1 !important; }
+        .seq-lab { opacity: 0.28 !important; }
+        .spin { display: none; }
+      }
+    ]]></style>
+  </defs>
+
+  <rect width="720" height="440" rx="24" fill="#061824"/>
+  <rect width="720" height="440" rx="24" fill="url(#flaGlow)"/>
+  <rect x="1" y="1" width="718" height="438" rx="23" fill="none" stroke="#f4f8fb" stroke-opacity="0.12"/>
+
+  <text x="360" y="36" text-anchor="middle" fill="#e0b34a" font-family="system-ui, sans-serif" font-size="11" font-weight="650" letter-spacing="2.4">AGENT ENGINEERING LAYERS</text>
+  <text x="360" y="64" text-anchor="middle" fill="#f4f8fb" font-family="Georgia, serif" font-size="22" font-weight="650">Harness &#183; Loop &#183; Graph &#183; <tspan fill="#e0b34a">Flywheel</tspan></text>
+
+  <g transform="translate(40 90)">
+    <g class="seq-h" transform="translate(50 78)">
+      <rect width="240" height="48" rx="14" fill="#0c2438" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.18"/>
+      <text class="seq-lab" x="18" y="30" fill="#f4f8fb" font-family="Georgia, serif" font-size="18" font-weight="650">Harness</text>
+    </g>
+    <g class="seq-l" transform="translate(50 120)">
+      <rect width="240" height="48" rx="14" fill="#0c2438" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.18"/>
+      <text class="seq-lab" x="18" y="30" fill="#f4f8fb" font-family="Georgia, serif" font-size="18" font-weight="650">Loop</text>
+    </g>
+    <g class="seq-g" transform="translate(50 162)">
+      <rect width="240" height="48" rx="14" fill="#0c2438" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.18"/>
+      <text class="seq-lab" x="18" y="30" fill="#f4f8fb" font-family="Georgia, serif" font-size="18" font-weight="650">Graph</text>
+    </g>
+
+    <g class="seq-fly" transform="translate(50 48)">
+      <circle cx="120" cy="120" r="108" fill="url(#flaGlow)"/>
+      <circle cx="120" cy="120" r="100" fill="none" stroke="#c4922a" stroke-opacity="0.55" stroke-width="2.5"/>
+      <g>
+        <animateTransform class="spin" attributeName="transform" type="rotate" from="0 120 120" to="-360 120 120" dur="22s" repeatCount="indefinite"/>
+        <circle cx="120" cy="120" r="70" fill="none" stroke="#7eb8d4" stroke-opacity="0.45" stroke-width="1.75" stroke-dasharray="5 7"/>
+      </g>
+      <g>
+        <animateTransform class="spin" attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="8s" repeatCount="indefinite"/>
+        <circle cx="120" cy="20" r="4.5" fill="#e0b34a"/>
+        <circle cx="206.6" cy="170" r="4" fill="#7eb8d4"/>
+        <circle cx="33.4" cy="170" r="4" fill="#6fbf8a"/>
+      </g>
+      <text x="120" y="114" text-anchor="middle" fill="#e0b34a" font-family="Georgia, serif" font-size="18" font-weight="650">Flywheel</text>
+      <text x="120" y="132" text-anchor="middle" fill="#e0b34a" font-family="system-ui, sans-serif" font-size="8" font-weight="650" letter-spacing="1.8">ENGINEERING</text>
+      <g class="seq-tri" font-family="system-ui, sans-serif">
+        <g>
+          <rect x="28" y="36" width="72" height="22" rx="11" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+          <text x="64" y="51" text-anchor="middle" fill="#f4f8fb" font-size="9" font-weight="650">Zero-Copy</text>
+        </g>
+        <g>
+          <rect x="140" y="36" width="72" height="22" rx="11" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+          <text x="176" y="51" text-anchor="middle" fill="#f4f8fb" font-size="9" font-weight="650">Zero-Trust</text>
+        </g>
+        <g>
+          <rect x="66" y="198" width="108" height="22" rx="11" fill="#061824" fill-opacity="0.92" stroke="#f4f8fb" stroke-opacity="0.22"/>
+          <text x="120" y="213" text-anchor="middle" fill="#f4f8fb" font-size="9" font-weight="650">Zero-Token</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="system-ui, sans-serif" transform="translate(420 110)">
+    <g class="seq-lh">
+      <rect width="260" height="52" rx="12" fill="#000000" fill-opacity="0.2" stroke="#c4922a" stroke-opacity="0.35"/>
+      <text x="16" y="32" fill="#f4f8fb" font-family="Georgia, serif" font-size="15" font-weight="650">Harness Engineering</text>
+    </g>
+    <g class="seq-ll" transform="translate(0 64)">
+      <rect width="260" height="52" rx="12" fill="#000000" fill-opacity="0.2" stroke="#c4922a" stroke-opacity="0.35"/>
+      <text x="16" y="32" fill="#f4f8fb" font-family="Georgia, serif" font-size="15" font-weight="650">Loop Engineering</text>
+    </g>
+    <g class="seq-lg" transform="translate(0 128)">
+      <rect width="260" height="52" rx="12" fill="#000000" fill-opacity="0.2" stroke="#c4922a" stroke-opacity="0.35"/>
+      <text x="16" y="32" fill="#f4f8fb" font-family="Georgia, serif" font-size="15" font-weight="650">Graph Engineering</text>
+    </g>
+    <g class="seq-lf" transform="translate(0 192)">
+      <rect width="260" height="52" rx="12" fill="#c4922a" fill-opacity="0.12" stroke="#e0b34a" stroke-opacity="0.65"/>
+      <text x="16" y="24" fill="#f4f8fb" font-family="Georgia, serif" font-size="15" font-weight="650">Flywheel Engineering</text>
+      <text x="16" y="40" fill="#e8f0f6" fill-opacity="0.65" font-size="11">Your innovation &#183; compounds</text>
+    </g>
+  </g>
+
+  <text x="24" y="424" text-anchor="start" fill="#e8f0f6" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="10" font-weight="500" letter-spacing="0.4">Aug01-2026</text>
+  <text x="696" y="424" text-anchor="end" fill="#e8f0f6" fill-opacity="0.4" font-family="system-ui, sans-serif" font-size="10" font-weight="500" letter-spacing="0.4">GeneWang</text>
+</svg>

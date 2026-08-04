@@ -119,11 +119,26 @@ export function FlywheelLayersAnim() {
           </button>
           <a
             className="fla__ref"
+            href="/flywheel-layers.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open layers SVG
+          </a>
+          <a
+            className="fla__ref"
             href="/flywheel-engineering.html"
             target="_blank"
             rel="noreferrer"
           >
             Open shareable image
+          </a>
+          <a
+            className="fla__ref"
+            href="/flywheel-layers.svg"
+            download="flywheel-layers.svg"
+          >
+            Download layers SVG
           </a>
           <a
             className="fla__ref"
