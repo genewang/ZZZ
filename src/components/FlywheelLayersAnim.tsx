@@ -32,11 +32,13 @@ export function FlywheelLayersAnim() {
       setStage(STAGES.length);
       return;
     }
-    const id = window.setInterval(() => {
+    // Hold the final Flywheel + Triple Zero scene longer
+    const delay = stage >= STAGES.length ? 4200 : 1600;
+    const id = window.setTimeout(() => {
       setStage((s) => (s >= STAGES.length ? 0 : s + 1));
-    }, 1600);
-    return () => window.clearInterval(id);
-  }, [playing]);
+    }, delay);
+    return () => window.clearTimeout(id);
+  }, [playing, stage]);
 
   const showFlywheel = stage >= 3;
   const showTriple = stage >= 4 || stage === STAGES.length;

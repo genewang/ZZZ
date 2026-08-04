@@ -7,65 +7,65 @@
       <stop offset="100%" stop-color="#061824" stop-opacity="0"/>
     </radialGradient>
     <style type="text/css"><![CDATA[
-      .seq-h { animation: inH 8s ease-in-out infinite; }
-      .seq-l { animation: inL 8s ease-in-out infinite; }
-      .seq-g { animation: inG 8s ease-in-out infinite; }
-      .seq-fly { animation: inFly 8s ease-in-out infinite; }
-      .seq-tri { animation: inTri 8s ease-in-out infinite; }
-      .seq-lab { animation: softLab 8s ease-in-out infinite; }
-      .seq-lh { animation: onH 8s ease-in-out infinite; }
-      .seq-ll { animation: onL 8s ease-in-out infinite; }
-      .seq-lg { animation: onG 8s ease-in-out infinite; }
-      .seq-lf { animation: onF 8s ease-in-out infinite; }
+      .seq-h { animation: inH 11s ease-in-out infinite; }
+      .seq-l { animation: inL 11s ease-in-out infinite; }
+      .seq-g { animation: inG 11s ease-in-out infinite; }
+      .seq-fly { animation: inFly 11s ease-in-out infinite; }
+      .seq-tri { animation: inTri 11s ease-in-out infinite; }
+      .seq-lab { animation: softLab 11s ease-in-out infinite; }
+      .seq-lh { animation: onH 11s ease-in-out infinite; }
+      .seq-ll { animation: onL 11s ease-in-out infinite; }
+      .seq-lg { animation: onG 11s ease-in-out infinite; }
+      .seq-lf { animation: onF 11s ease-in-out infinite; }
 
       @keyframes inH {
-        0%, 5% { opacity: 0; }
-        12%, 90% { opacity: 1; }
+        0%, 4% { opacity: 0; }
+        9%, 92% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes inL {
-        0%, 22% { opacity: 0; }
-        30%, 90% { opacity: 1; }
+        0%, 16% { opacity: 0; }
+        22%, 92% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes inG {
-        0%, 42% { opacity: 0; }
-        50%, 90% { opacity: 1; }
+        0%, 30% { opacity: 0; }
+        36%, 92% { opacity: 1; }
         97%, 100% { opacity: 0; }
       }
       @keyframes inFly {
-        0%, 58% { opacity: 0; }
-        68%, 92% { opacity: 1; }
+        0%, 42% { opacity: 0; }
+        48%, 94% { opacity: 1; }
         98%, 100% { opacity: 0; }
       }
       @keyframes inTri {
-        0%, 74% { opacity: 0; }
-        82%, 92% { opacity: 1; }
+        0%, 52% { opacity: 0; }
+        58%, 94% { opacity: 1; }
         98%, 100% { opacity: 0; }
       }
       @keyframes softLab {
-        0%, 62% { opacity: 1; }
-        70%, 92% { opacity: 0.28; }
+        0%, 46% { opacity: 1; }
+        52%, 94% { opacity: 0.28; }
         98%, 100% { opacity: 1; }
       }
       @keyframes onH {
-        0%, 8% { opacity: 0.35; }
-        12%, 90% { opacity: 1; }
+        0%, 6% { opacity: 0.35; }
+        9%, 92% { opacity: 1; }
         97%, 100% { opacity: 0.35; }
       }
       @keyframes onL {
-        0%, 26% { opacity: 0.35; }
-        30%, 90% { opacity: 1; }
+        0%, 18% { opacity: 0.35; }
+        22%, 92% { opacity: 1; }
         97%, 100% { opacity: 0.35; }
       }
       @keyframes onG {
-        0%, 46% { opacity: 0.35; }
-        50%, 90% { opacity: 1; }
+        0%, 32% { opacity: 0.35; }
+        36%, 92% { opacity: 1; }
         97%, 100% { opacity: 0.35; }
       }
       @keyframes onF {
-        0%, 64% { opacity: 0.35; }
-        70%, 92% { opacity: 1; }
+        0%, 46% { opacity: 0.35; }
+        52%, 94% { opacity: 1; }
         98%, 100% { opacity: 0.35; }
       }
 
