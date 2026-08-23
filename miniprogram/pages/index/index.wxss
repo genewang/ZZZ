@@ -1,0 +1,80 @@
+.page {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 48rpx 32rpx 64rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 36rpx;
+  background: #061824;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 22rpx;
+  letter-spacing: 4rpx;
+  text-transform: uppercase;
+  color: #e0b34a;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 650;
+  color: #f4f8fb;
+  line-height: 1.35;
+}
+
+.lede {
+  font-size: 26rpx;
+  color: rgba(232, 240, 246, 0.72);
+  line-height: 1.5;
+}
+
+.player {
+  border-radius: 24rpx;
+  overflow: hidden;
+  background: #0c2438;
+  border: 1rpx solid rgba(244, 248, 251, 0.12);
+}
+
+.video {
+  width: 100%;
+  height: 420rpx;
+  display: block;
+  background: #061824;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0;
+  padding: 0 48rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  font-size: 28rpx;
+  color: #e0b34a;
+  background: transparent;
+  border: 1rpx solid rgba(224, 179, 74, 0.45);
+  border-radius: 999rpx;
+}
+
+.btn::after {
+  border: none;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color: rgba(232, 240, 246, 0.4);
+}

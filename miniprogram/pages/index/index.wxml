@@ -1,0 +1,33 @@
+<view class="page">
+  <view class="hero">
+    <text class="eyebrow">Agent engineering layers</text>
+    <text class="title">Harness · Loop · Graph · Flywheel</text>
+    <text class="lede">Triple Zero compounds every run into safer, cheaper practice.</text>
+  </view>
+
+  <view class="player">
+    <video
+      id="flywheelVideo"
+      class="video"
+      src="{{src}}"
+      controls
+      show-center-play-btn
+      show-play-btn
+      enable-progress-gesture
+      object-fit="contain"
+      poster=""
+      bindplay="onPlay"
+      bindpause="onPause"
+      bindended="onEnded"
+    />
+  </view>
+
+  <view class="actions">
+    <button class="btn" bindtap="replay">Replay</button>
+  </view>
+
+  <view class="footer">
+    <text>Aug01-2026</text>
+    <text>GeneWang</text>
+  </view>
+</view>

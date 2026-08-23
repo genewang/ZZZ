@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Flywheel Layers",
+    "navigationBarBackgroundColor": "#061824",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#061824",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
